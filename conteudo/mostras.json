@@ -1,6 +1,6 @@
 {
  "formato": 2,
- "gerado_em": "2026-11-19T11:00:50-04:00",
+ "gerado_em": "2026-11-19T15:47:04-04:00",
  "layouts": {
   "destaque": "Destaque (uma espécie por vez, com trilho)"
  },
@@ -9,6 +9,262 @@
   "quem-canta": "Quem canta?"
  },
  "mostras": [
+  {
+   "id": "o-som-dos-guardioes",
+   "titulo": "o Som dos Guardiões",
+   "subtitulo": "",
+   "layout": "destaque",
+   "atividades": [
+    "explorar",
+    "quem-canta"
+   ],
+   "quiosque": {
+    "espera_s": 90,
+    "volume_max": 0.8
+   },
+   "endereco_publico": "",
+   "marca": {
+    "tema": "claro",
+    "destaque": "#1E6B52",
+    "fundo": {
+     "tipo": "gradiente",
+     "veu": 1.0
+    },
+    "foto_inicio": {
+     "largura": 2899,
+     "altura": 2430,
+     "variantes": [
+      {
+       "w": 480,
+       "h": 402,
+       "url": "marca/o-som-dos-guardioes/inicio-480.webp"
+      },
+      {
+       "w": 1080,
+       "h": 905,
+       "url": "marca/o-som-dos-guardioes/inicio-1080.webp"
+      },
+      {
+       "w": 1920,
+       "h": 1609,
+       "url": "marca/o-som-dos-guardioes/inicio-1920.webp"
+      }
+     ],
+     "foco": [
+      0.875,
+      0.378
+     ],
+     "ajuste": "cobrir",
+     "credito": ""
+    },
+    "logos": [
+     {
+      "url": "marca/o-som-dos-guardioes/logo-1.webp",
+      "w": 645,
+      "h": 240,
+      "escala": 1.0
+     },
+     {
+      "url": "marca/o-som-dos-guardioes/logo-2.webp",
+      "w": 356,
+      "h": 240,
+      "escala": 1.0
+     },
+     {
+      "url": "marca/o-som-dos-guardioes/logo-3.webp",
+      "w": 596,
+      "h": 240,
+      "escala": 1.0
+     }
+    ],
+    "logos_posicao": "topo",
+    "logos_posicao_celular": "topo"
+   },
+   "jogo": {
+    "rodadas": 5,
+    "niveis": [
+     "facil",
+     "medio",
+     "dificil"
+    ],
+    "nivel_inicial": "facil",
+    "texto_apos_resposta": true
+   },
+   "campos": [
+    {
+     "id": "eixo-tematico",
+     "rotulo": "Eixo temático",
+     "opcoes": [
+      {
+       "id": "ar",
+       "rotulo": "Ar",
+       "cor": "#BCD5E5",
+       "descricao": ""
+      },
+      {
+       "id": "aguas",
+       "rotulo": "Águas",
+       "cor": "#62B8E8",
+       "descricao": ""
+      },
+      {
+       "id": "fauna",
+       "rotulo": "Fauna",
+       "cor": "#A94022",
+       "descricao": ""
+      },
+      {
+       "id": "flora",
+       "rotulo": "Flora",
+       "cor": "#90B039",
+       "descricao": ""
+      },
+      {
+       "id": "cultura-pantaneira",
+       "rotulo": "Cultura Pantaneira",
+       "cor": "#4F2977",
+       "descricao": ""
+      }
+     ]
+    }
+   ],
+   "agrupar_por": "eixo-tematico",
+   "itens": [
+    {
+     "especie": "caiman-yacare",
+     "sons": [
+      "rugido",
+      "tosse",
+      "filhote"
+     ],
+     "jogo": true,
+     "titulo": "O Ancião Soberano do Pantanal",
+     "foto": {
+      "largura": 1600,
+      "altura": 1600,
+      "variantes": [
+       {
+        "w": 480,
+        "h": 480,
+        "url": "marca/o-som-dos-guardioes/especie-caiman-yacare-480.webp"
+       },
+       {
+        "w": 1080,
+        "h": 1080,
+        "url": "marca/o-som-dos-guardioes/especie-caiman-yacare-1080.webp"
+       }
+      ],
+      "foco": [
+       0.5,
+       0.5
+      ],
+      "ajuste": "cobrir",
+      "credito": ""
+     },
+     "extras": [
+      {
+       "id": "eixo-tematico",
+       "rotulo": "Eixo temático",
+       "valor": "Cultura Pantaneira",
+       "opcao": "cultura-pantaneira",
+       "cor": "#4F2977"
+      }
+     ]
+    },
+    {
+     "especie": "jabiru-mycteria",
+     "sons": [
+      "som"
+     ],
+     "jogo": true,
+     "titulo": "O Símbolo Vivo do Pantanal",
+     "foto": {
+      "largura": 1600,
+      "altura": 1600,
+      "variantes": [
+       {
+        "w": 480,
+        "h": 480,
+        "url": "marca/o-som-dos-guardioes/especie-jabiru-mycteria-480.webp"
+       },
+       {
+        "w": 1080,
+        "h": 1080,
+        "url": "marca/o-som-dos-guardioes/especie-jabiru-mycteria-1080.webp"
+       }
+      ],
+      "foco": [
+       0.541,
+       0.182
+      ],
+      "ajuste": "cobrir",
+      "credito": ""
+     },
+     "extras": [
+      {
+       "id": "eixo-tematico",
+       "rotulo": "Eixo temático",
+       "valor": "Cultura Pantaneira",
+       "opcao": "cultura-pantaneira",
+       "cor": "#4F2977"
+      }
+     ]
+    },
+    {
+     "especie": "pteronura-brasiliensis",
+     "sons": [
+      "grupo"
+     ],
+     "jogo": true,
+     "titulo": "A Sentinela das Águas",
+     "foto": {
+      "largura": 1600,
+      "altura": 1600,
+      "variantes": [
+       {
+        "w": 480,
+        "h": 480,
+        "url": "marca/o-som-dos-guardioes/especie-pteronura-brasiliensis-480.webp"
+       },
+       {
+        "w": 1080,
+        "h": 1080,
+        "url": "marca/o-som-dos-guardioes/especie-pteronura-brasiliensis-1080.webp"
+       }
+      ],
+      "foco": [
+       0.33,
+       0.329
+      ],
+      "ajuste": "cobrir",
+      "credito": ""
+     },
+     "extras": [
+      {
+       "id": "eixo-tematico",
+       "rotulo": "Eixo temático",
+       "valor": "Águas",
+       "opcao": "aguas",
+       "cor": "#62B8E8"
+      }
+     ]
+    },
+    {
+     "especie": "alouatta-caraya",
+     "sons": [
+      "ronco"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "panthera-onca",
+     "sons": [
+      "esturro"
+     ],
+     "jogo": true
+    }
+   ]
+  },
   {
    "id": "snct-2026",
    "titulo": "Sons do Pantanal",
@@ -27,7 +283,7 @@
     "tema": "claro",
     "destaque": "#1E6B52",
     "fundo": {
-     "tipo": "liso",
+     "tipo": "gradiente",
      "veu": 0.88
     },
     "foto_inicio": {
@@ -49,12 +305,30 @@
        "h": 1280,
        "url": "marca/snct-2026/inicio-1920.webp"
       }
-     ]
+     ],
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "ajuste": "cobrir",
+     "credito": ""
     },
     "logos": [],
     "logos_posicao": "topo",
     "logos_posicao_celular": "rodape"
    },
+   "jogo": {
+    "rodadas": 5,
+    "niveis": [
+     "facil",
+     "medio",
+     "dificil"
+    ],
+    "nivel_inicial": "facil",
+    "texto_apos_resposta": true
+   },
+   "campos": [],
+   "agrupar_por": "grupo",
    "itens": [
     {
      "especie": "caiman-yacare",
@@ -62,103 +336,120 @@
       "rugido",
       "tosse",
       "filhote"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "panthera-onca",
      "sons": [
       "esturro"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "pteronura-brasiliensis",
      "sons": [
       "grupo"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "lenerca-inalata",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "nyctibius-griseus",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "boana-raniceps",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "trachycephalus-typhonius",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "jabiru-mycteria",
      "sons": [
       "som"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "theristicus-caerulescens",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "eurypyga-helias",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "bubo-virginianus",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "physalaemus-albonotatus",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "leptodactylus-fuscus",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "cacicus-cela",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "crypturellus-undulatus",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "ortalis-canicollis",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     },
     {
      "especie": "nyctidromus-albicollis",
      "sons": [
       "canto"
-     ]
+     ],
+     "jogo": true
     }
    ]
   }
