@@ -1,6 +1,6 @@
 {
  "formato": 2,
- "gerado_em": "2026-11-19T15:52:06-04:00",
+ "gerado_em": "2026-11-19T16:20:54-04:00",
  "layouts": {
   "destaque": "Destaque (uma espécie por vez, com trilho)"
  },
@@ -9,6 +9,197 @@
   "quem-canta": "Quem canta?"
  },
  "mostras": [
+  {
+   "id": "snct-2026",
+   "titulo": "Sons do Pantanal",
+   "subtitulo": "Toque e ouça",
+   "layout": "destaque",
+   "atividades": [
+    "explorar",
+    "quem-canta"
+   ],
+   "quiosque": {
+    "espera_s": 90,
+    "volume_max": 0.8
+   },
+   "endereco_publico": "https://korzune-code.github.io/sons-do-pantanal/",
+   "link_publico": "https://korzune-code.github.io/sons-do-pantanal/?mostra=snct-2026",
+   "publicar_no_site": true,
+   "principal": true,
+   "marca": {
+    "tema": "claro",
+    "destaque": "#1E6B52",
+    "fundo": {
+     "tipo": "gradiente",
+     "veu": 0.88
+    },
+    "foto_inicio": {
+     "largura": 4272,
+     "altura": 2848,
+     "variantes": [
+      {
+       "w": 480,
+       "h": 320,
+       "url": "marca/snct-2026/inicio-480.webp"
+      },
+      {
+       "w": 1080,
+       "h": 720,
+       "url": "marca/snct-2026/inicio-1080.webp"
+      },
+      {
+       "w": 1920,
+       "h": 1280,
+       "url": "marca/snct-2026/inicio-1920.webp"
+      }
+     ],
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "ajuste": "cobrir",
+     "credito": ""
+    },
+    "logos": [],
+    "logos_posicao": "topo",
+    "logos_posicao_celular": "rodape"
+   },
+   "jogo": {
+    "rodadas": 5,
+    "niveis": [
+     "facil",
+     "medio",
+     "dificil"
+    ],
+    "nivel_inicial": "facil",
+    "texto_apos_resposta": true
+   },
+   "campos": [],
+   "agrupar_por": "grupo",
+   "itens": [
+    {
+     "especie": "caiman-yacare",
+     "sons": [
+      "rugido",
+      "tosse",
+      "filhote"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "panthera-onca",
+     "sons": [
+      "esturro"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "pteronura-brasiliensis",
+     "sons": [
+      "grupo"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "lenerca-inalata",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "nyctibius-griseus",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "boana-raniceps",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "trachycephalus-typhonius",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "jabiru-mycteria",
+     "sons": [
+      "som"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "theristicus-caerulescens",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "eurypyga-helias",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "bubo-virginianus",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "physalaemus-albonotatus",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "leptodactylus-fuscus",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "cacicus-cela",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "crypturellus-undulatus",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "ortalis-canicollis",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    },
+    {
+     "especie": "nyctidromus-albicollis",
+     "sons": [
+      "canto"
+     ],
+     "jogo": true
+    }
+   ]
+  },
   {
    "id": "o-som-dos-guardioes",
    "titulo": "o Som dos Guardiões",
@@ -23,6 +214,9 @@
     "volume_max": 0.8
    },
    "endereco_publico": "",
+   "link_publico": "",
+   "publicar_no_site": true,
+   "principal": false,
    "marca": {
     "tema": "claro",
     "destaque": "#1E6B52",
@@ -335,194 +529,6 @@
        "cor": "#F7BD59"
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "snct-2026",
-   "titulo": "Sons do Pantanal",
-   "subtitulo": "Toque e ouça",
-   "layout": "destaque",
-   "atividades": [
-    "explorar",
-    "quem-canta"
-   ],
-   "quiosque": {
-    "espera_s": 90,
-    "volume_max": 0.8
-   },
-   "endereco_publico": "https://korzune-code.github.io/sons-do-pantanal/",
-   "marca": {
-    "tema": "claro",
-    "destaque": "#1E6B52",
-    "fundo": {
-     "tipo": "gradiente",
-     "veu": 0.88
-    },
-    "foto_inicio": {
-     "largura": 4272,
-     "altura": 2848,
-     "variantes": [
-      {
-       "w": 480,
-       "h": 320,
-       "url": "marca/snct-2026/inicio-480.webp"
-      },
-      {
-       "w": 1080,
-       "h": 720,
-       "url": "marca/snct-2026/inicio-1080.webp"
-      },
-      {
-       "w": 1920,
-       "h": 1280,
-       "url": "marca/snct-2026/inicio-1920.webp"
-      }
-     ],
-     "foco": [
-      0.5,
-      0.5
-     ],
-     "ajuste": "cobrir",
-     "credito": ""
-    },
-    "logos": [],
-    "logos_posicao": "topo",
-    "logos_posicao_celular": "rodape"
-   },
-   "jogo": {
-    "rodadas": 5,
-    "niveis": [
-     "facil",
-     "medio",
-     "dificil"
-    ],
-    "nivel_inicial": "facil",
-    "texto_apos_resposta": true
-   },
-   "campos": [],
-   "agrupar_por": "grupo",
-   "itens": [
-    {
-     "especie": "caiman-yacare",
-     "sons": [
-      "rugido",
-      "tosse",
-      "filhote"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "panthera-onca",
-     "sons": [
-      "esturro"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "pteronura-brasiliensis",
-     "sons": [
-      "grupo"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "lenerca-inalata",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "nyctibius-griseus",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "boana-raniceps",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "trachycephalus-typhonius",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "jabiru-mycteria",
-     "sons": [
-      "som"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "theristicus-caerulescens",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "eurypyga-helias",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "bubo-virginianus",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "physalaemus-albonotatus",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "leptodactylus-fuscus",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "cacicus-cela",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "crypturellus-undulatus",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "ortalis-canicollis",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
-    },
-    {
-     "especie": "nyctidromus-albicollis",
-     "sons": [
-      "canto"
-     ],
-     "jogo": true
     }
    ]
   }
