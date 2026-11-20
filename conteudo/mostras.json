@@ -1,6 +1,6 @@
 {
  "formato": 2,
- "gerado_em": "2026-11-19T16:20:54-04:00",
+ "gerado_em": "2026-11-20T13:00:18-04:00",
  "layouts": {
   "destaque": "Destaque (uma espécie por vez, com trilho)"
  },
@@ -527,6 +527,84 @@
        "valor": "Soberana",
        "opcao": "soberana",
        "cor": "#F7BD59"
+      }
+     ]
+    },
+    {
+     "especie": "rhea-americana",
+     "sons": [
+      "som-1"
+     ],
+     "jogo": true,
+     "titulo": "O Velocista dos Campos",
+     "foto": {
+      "largura": 1600,
+      "altura": 1600,
+      "variantes": [
+       {
+        "w": 480,
+        "h": 480,
+        "url": "marca/o-som-dos-guardioes/especie-rhea-americana-480.webp"
+       },
+       {
+        "w": 1080,
+        "h": 1080,
+        "url": "marca/o-som-dos-guardioes/especie-rhea-americana-1080.webp"
+       }
+      ],
+      "foco": [
+       0.302,
+       0.202
+      ],
+      "ajuste": "cobrir",
+      "credito": ""
+     },
+     "extras": [
+      {
+       "id": "eixo-tematico",
+       "rotulo": "Eixo temático",
+       "valor": "Fauna",
+       "opcao": "fauna",
+       "cor": "#A94022"
+      }
+     ]
+    },
+    {
+     "especie": "hydrochoerus-hydrochaeris",
+     "sons": [
+      "som-1"
+     ],
+     "jogo": true,
+     "titulo": "A Embaixadora da Boa Vizinhança",
+     "foto": {
+      "largura": 1600,
+      "altura": 1600,
+      "variantes": [
+       {
+        "w": 480,
+        "h": 480,
+        "url": "marca/o-som-dos-guardioes/especie-hydrochoerus-hydrochaeris-480.webp"
+       },
+       {
+        "w": 1080,
+        "h": 1080,
+        "url": "marca/o-som-dos-guardioes/especie-hydrochoerus-hydrochaeris-1080.webp"
+       }
+      ],
+      "foco": [
+       0.644,
+       0.449
+      ],
+      "ajuste": "cobrir",
+      "credito": ""
+     },
+     "extras": [
+      {
+       "id": "eixo-tematico",
+       "rotulo": "Eixo temático",
+       "valor": "Fauna",
+       "opcao": "fauna",
+       "cor": "#A94022"
       }
      ]
     }
