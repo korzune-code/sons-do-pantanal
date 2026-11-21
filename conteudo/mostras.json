@@ -1,6 +1,6 @@
 {
  "formato": 2,
- "gerado_em": "2026-11-20T13:00:18-04:00",
+ "gerado_em": "2026-11-20T20:44:23-04:00",
  "layouts": {
   "destaque": "Destaque (uma espécie por vez, com trilho)"
  },
@@ -74,6 +74,8 @@
     "nivel_inicial": "facil",
     "texto_apos_resposta": true
    },
+   "textos": {},
+   "ocultar": [],
    "campos": [],
    "agrupar_por": "grupo",
    "itens": [
@@ -203,7 +205,7 @@
   {
    "id": "o-som-dos-guardioes",
    "titulo": "o Som dos Guardiões",
-   "subtitulo": "",
+   "subtitulo": "teste",
    "layout": "destaque",
    "atividades": [
     "explorar",
@@ -213,8 +215,8 @@
     "espera_s": 90,
     "volume_max": 0.8
    },
-   "endereco_publico": "",
-   "link_publico": "",
+   "endereco_publico": "https://korzune-code.github.io/sons-do-pantanal/",
+   "link_publico": "https://korzune-code.github.io/sons-do-pantanal/?mostra=o-som-dos-guardioes",
    "publicar_no_site": true,
    "principal": false,
    "marca": {
@@ -245,8 +247,8 @@
       }
      ],
      "foco": [
-      0.875,
-      0.378
+      0.934,
+      0.347
      ],
      "ajuste": "cobrir",
      "credito": ""
@@ -262,7 +264,7 @@
       "url": "marca/o-som-dos-guardioes/logo-2.webp",
       "w": 356,
       "h": 240,
-      "escala": 1.0
+      "escala": 1.25
      },
      {
       "url": "marca/o-som-dos-guardioes/logo-3.webp",
@@ -284,6 +286,10 @@
     "nivel_inicial": "facil",
     "texto_apos_resposta": true
    },
+   "textos": {},
+   "ocultar": [
+    "inicio_chamada"
+   ],
    "campos": [
     {
      "id": "eixo-tematico",
